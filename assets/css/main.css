@@ -1,0 +1,31 @@
+body{
+  display: block;
+  margin: 8px;
+  background: aquamarine;
+}
+img{
+  border-color: #f009be;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+.animal{
+  width: 300px;
+  height: 300px;
+  margin: 0;
+}
+.blanco-negro{
+  filter: grayscale(100%);
+  -webkit-filter:grayscale(100%);
+}
+
+.invertir-colores{
+  -webkit-filter:invert(.8);
+  filter: invert(.8);
+}
+
+.sepia{
+  -webkit-filter:sepia(1);
+  filter: sepia(1);
+}
